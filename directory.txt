@@ -1,0 +1,26 @@
+LibreHTX 2026 repository structure
+
+/
+├── README.md
+├── CHANGELOG.txt
+├── directory.txt
+├── DESIGN.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── CONTENT-LICENSE
+├── _config.yml
+├── _layouts/
+│   └── default.html
+├── assets/
+│   ├── css/
+│   │   └── style.scss
+│   └── js/
+│       └── nav.js
+├── about.md
+├── events.md
+├── faq.md
+├── index.md
+├── robots.txt
+└── docs/
+    ├── handout.md
+    └── lexicon.md
