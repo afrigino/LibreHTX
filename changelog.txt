@@ -1,0 +1,11 @@
+LibreHTX 2026 Changelog
+
+2026-05-27
+- Added a GitHub Pages-ready landing page structure.
+- Added hero sections for the homepage and supporting pages.
+- Added mobile navigation with a hamburger menu.
+- Added light/dark theme support with prefers-color-scheme.
+- Added a root-level design guide.
+- Corrected the meetup venue to Wolfsmiths Coffee, 201 Woodard St, Houston, TX 77009.
+- Added supporting docs for FAQ, lexicon, and attendee handout.
+- Recommended root README placement for GitHub repo visibility.
