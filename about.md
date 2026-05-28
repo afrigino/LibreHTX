@@ -7,7 +7,7 @@ description: Why LibreHTX exists and how it connects free software, open source,
 
 # About LibreHTX 2026
 
-Admin Alex here saying hello from the Near Northside and welcome to the landing page of Houston's first local meetup centered on free software, open source, digital rights, privacy, and practical collaboration.
+Admin (alex) here saying hello and welcome to Houston's first local meetup centered on free software, open source, digital rights, privacy, and practical collaboration.
 
 <div class="actions">
 <a class="primary" href="events.md">See events</a>
@@ -18,9 +18,9 @@ Admin Alex here saying hello from the Near Northside and welcome to the landing 
 
 LibreHTX 2026 is our inaugural gathering, created to bring together people who care about software freedom, open collaboration, privacy, digital rights, and the broader question of how technology can serve people rather than trap them.
 
-The Free Software Foundation has long argued that users should have the freedom to run, study, share, and modify software. The open source world often approaches the same space from a practical angle, focusing on collaboration, quality, and adoption. My interest here was also shaped by the Electronic Frontier Foundation’s work, which helped me see the intersection between digital rights, user empowerment, and software freedom.
+The Free Software Foundation has long argued that users should have the freedom to run, study, share, and modify software. The open source world often approaches the same space from a practical angle, focusing on collaboration, quality, and adoption. My interest here is also shaped by the Electronic Frontier Foundation’s work, which helped me see the intersection between digital rights, user empowerment, and software freedom. 
 
-This meetup is not designed to assume everyone arrives with the same background. Some guests will know the vocabulary well. Others may be entirely new to the space. That is exactly why this landing page exists.
+
 
 ## Why Houston
 
