@@ -20,7 +20,6 @@ LibreHTX 2026 repository structure
 ├── events.md
 ├── faq.md
 ├── index.md
-├── robots.txt
-└── docs/
-    ├── handout.md
-    └── lexicon.md
+├── robots.txt  
+├── handout.md
+└── lexicon.md
