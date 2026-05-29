@@ -9,7 +9,7 @@ description: Event details for LibreHTX 2026.
 
 ## LibreHTX 2026: Inaugural meetup
 
-**Date:** 29th  
+**Date:** May 29th  
 **Time:** 1700–1900  
 **Location:** Wolfsmiths Coffee, Houston  
 **Address:** 201 Woodard St, Houston, TX 77009
@@ -21,15 +21,15 @@ description: Event details for LibreHTX 2026.
 
 </div>
 
-This first event is a chance to introduce the community, explain the goals, and hear from attendees about what they want this meetup to become.
+This first event is a chance to clebrate LibreLocal 2026, introduce ourselves to the community, discover shared goals, and hear from attendees about what they would like future meetups to cover.
 
 ## What the event is for
 
 - A friendly first contact for newcomers.
-- A chance to explain the terms and the mission.
+- A chance to learn and celebrate the mission.
 - A place to ask questions and meet people.
 - A foundation for future recurring events.
 
 ## What happens next
 
-If the first meetup resonates, the goal is to make LibreHTX a recurring event with a clearer program, guest speakers, and more ways to participate.
+If the first meetup resonates, the goal is to make LibreHTX a recurring event with a clear program, guest speakers, and more ways to participate.
