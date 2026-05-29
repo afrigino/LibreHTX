@@ -24,7 +24,7 @@ This site was built using the **Libre Ethos** design system:
 
 ## Live Site
 
-[https://afrigino.github.io/librehtx/](https://afrigino.github.io/LibreHTX/) 
+[https://afrigino.github.io/LibreHTX/](https://afrigino.github.io/LibreHTX/) 
 
 ## Quick Start
 
