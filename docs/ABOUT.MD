@@ -1,4 +1,4 @@
-LibreHTX 2026 is our inaugural gathering, created to bring together people who care about software freedom, open collaboration, privacy, digital rights, and the broader question of how technology can serve people rather than trap them.
+LibreHTX 2026 is our inaugural gathering to celebrate LibreLocal 2026. This event is created to bring together people who care about software freedom, open collaboration, privacy, digital rights, and the broader question of how technology can serve people rather than trap them.
 
 The Free Software Foundation has long argued that users should have the freedom to run, study, share, and modify software. The open source world often approaches the same space from a practical angle, focusing on collaboration, quality, and adoption. My interest here is also shaped by the Electronic Frontier Foundation’s work, which helped me see the intersection between digital rights, user empowerment, and software freedom.
 
@@ -14,4 +14,4 @@ Historical note
 The Free Software Foundation and related free-software communities have long supported meetups, conferences, and grassroots organizing around the world. LibreHTX 2026 is part of that broader spirit: a local gathering with an international set of ideas behind it.
 
 What to expect
-Expect friendly conversation, a low-barrier welcome, and room for questions. Expect a space where open source people, free software folks, privacy advocates, and curious beginners can all find something useful.
+Expect friendly conversation, a low-barrier to entry, and room for questions. Expect a space where open source people, free software folks, privacy advocates, and curious beginners can all find something useful.
