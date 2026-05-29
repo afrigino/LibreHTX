@@ -2,7 +2,7 @@
 
 Houston’s community for digital rights, free software, open source, privacy, and tech autonomy.
 
-![Libre HTX Hero](https://via.placeholder.com/1200x400/003f87/ffffff?text=LibreHTX+2026)
+![Libre HTX Hero](https://via.placeholder.com/1200x400/003f87/ffffff?text=LibreHTX)
 
 ## About
 
@@ -24,13 +24,13 @@ This site was built using the **Libre Ethos** design system:
 
 ## Live Site
 
-[https://afrigino.github.io/librehtx/](https://afrigino.github.io/librehtx/) 
+[https://afrigino.github.io/librehtx/](https://afrigino.github.io/LibreHTX/) 
 
 ## Quick Start
 
 ```bash
 # Clone the repo
-git clone https://github.com/afrigino/librehtx.git
+git clone https://github.com/afrigino/LibreHTX.git
 cd librehtx
 
 # Install dependencies (optional)
@@ -41,12 +41,13 @@ npm start
 
 ## Project Structure
 
-librehtx/
-├── index.html          # Main website (single page)
-├── tailwind.config.js  # Design tokens & configuration
+LibreHTX/
+├── index.html          r
+├── tailwind.config.js 
 ├── package.json
-├── README.md
-└── DESIGN.md           # Full design system specification
+├── CONTRIBUTING.MD
+├── DESIGN.MD
+└── README.MD         
 
 ## Tech Stack
 
