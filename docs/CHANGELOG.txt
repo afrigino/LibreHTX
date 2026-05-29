@@ -1,6 +1,7 @@
-LibreHTX 2026 Changelog
+## LibreHTX 2026 Changelog
 
-2026-05-27
+# 2026-05-27
+
 - Added a GitHub Pages-ready landing page structure.
 - Added hero sections for the homepage and supporting pages.
 - Added mobile navigation with a hamburger menu.
@@ -8,4 +9,11 @@ LibreHTX 2026 Changelog
 - Added a root-level design guide.
 - Corrected the meetup venue to Wolfsmiths Coffee, 201 Woodard St, Houston, TX 77009.
 - Added supporting docs for FAQ, lexicon, and attendee handout.
-- Recommended root README placement for GitHub repo visibility.
+- Added root readme file
+
+# 2026-05-28 
+- Casing the Wolfsmith joint. Lovely. And wow they are having "steak night"?
+- Reworked it with Claude. Buggy. Trashed it.
+- Reworked with Stitch using the prior DESIGN.MD. Lovely to look at. Buggy af. Trashed. Kept the improved DESIGN.MD
+- Re-designed with Grok using the design file as it could not fetch the files. Outcome not verbatim but workable. pleased with itself the G self-lauded about having served up the gist etc bla yadda.
+- Have I mentioned that the steak was Texas-sized and just about melts in your Github?
