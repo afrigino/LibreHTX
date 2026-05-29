@@ -24,14 +24,14 @@ This site was built using the **Libre Ethos** design system:
 
 ## Live Site
 
-[https://afrigino.github.io/libre-htx/](https://afrigino.github.io/libre-htx/) (update after deployment)
+[https://afrigino.github.io/librehtx/](https://afrigino.github.io/librehtx/) 
 
 ## Quick Start
 
 ```bash
 # Clone the repo
-git clone https://github.com/afrigino/libre-htx.git
-cd libre-htx
+git clone https://github.com/afrigino/librehtx.git
+cd librehtx
 
 # Install dependencies (optional)
 npm install
@@ -41,7 +41,7 @@ npm start
 
 ## Project Structure
 
-libre-htx/
+librehtx/
 ├── index.html          # Main website (single page)
 ├── tailwind.config.js  # Design tokens & configuration
 ├── package.json
