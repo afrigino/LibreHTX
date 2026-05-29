@@ -38,3 +38,36 @@ npm install
 
 # Serve locally
 npm start
+
+## Project Structure
+
+libre-htx/
+├── index.html          # Main website (single page)
+├── tailwind.config.js  # Design tokens & configuration
+├── package.json
+├── README.md
+└── DESIGN.md           # Full design system specification
+
+## Tech Stack
+
+-  HTML + Tailwind CSS (via CDN for simplicity)
+-  Custom CSS variables matching Libre Ethos
+-  Google Fonts (Hanken Grotesk, Inter, JetBrains Mono)
+
+## Contributing
+
+We welcome contributions! Feel free to:
+-  Open issues for bugs or suggestions
+-  Submit pull requests for improvements
+-  Help with content, design, or event organization
+
+## License
+
+This project is open source under the MIT License.
+
+Made with ❤️ for a freer Houston tech future.
+---
+
+
+
+
