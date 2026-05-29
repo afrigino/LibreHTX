@@ -1,6 +1,6 @@
 ---
 title: LibreHTX 2026 Lexicon
-description: Definitions of terms used by LibreHTX 2026.
+description: Definitions of common terms.
 ---
 
 <div class="hero">
