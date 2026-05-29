@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libre HTX — Houston Digital Rights & Open Tech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Hanken+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #003f87;
+        }
+        .display-lg { font-family: 'Hanken Grotesk', sans-serif; font-size: 48px; font-weight: 700; line-height: 56px; letter-spacing: -0.02em; }
+        .headline-lg { font-family: 'Hanken Grotesk', sans-serif; font-size: 32px; font-weight: 600; line-height: 40px; }
+        .title-md { font-family: 'Hanken Grotesk', sans-serif; font-size: 20px; font-weight: 500; line-height: 28px; }
+        .body-lg { font-size: 18px; line-height: 28px; }
+        .label-md { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 500; letter-spacing: 0.02em; }
+        
+        .card { border: 1px solid #dee2e6; background-color: white; }
+    </style>
+</head>
+<body class="bg-[#f7f9ff] text-[#181c20] antialiased">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-[#dee2e6]">
+        <div class="max-w-5xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-[#003f87] rounded-xl flex items-center justify-center text-white font-bold text-xl">L</div>
+                <span class="headline-lg text-xl tracking-tight">Libre HTX</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#" class="hover:text-[#003f87]">Events</a>
+                <a href="#" class="hover:text-[#003f87]">Resources</a>
+                <a href="#" class="hover:text-[#003f87]">About</a>
+            </div>
+            <button onclick="toggleModal()" class="bg-[#003f87] text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-[#0056b3] transition-all">
+                Join Us
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="pt-20 pb-16 bg-gradient-to-br from-[#003f87] to-[#1b6d24] text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h1 class="display-lg text-5xl md:text-6xl leading-tight mb-6">Digital Rights for Houston</h1>
+            <p class="body-lg max-w-2xl mx-auto opacity-90 mb-10">A community of developers, activists, and privacy-conscious citizens building a freer, more open tech future in Houston.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="toggleModal()" class="bg-white text-[#003f87] px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-[#f1f4f9]">Come to the next meetup</button>
+                <a href="#resources" class="border border-white/70 hover:bg-white/10 px-8 py-4 rounded-2xl text-lg font-medium transition-all">Explore Resources</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- What this is about -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="headline-lg text-center mb-12">What this is about</h2>
+            <div class="space-y-10">
+                <div class="flex gap-6">
+                    <div class="w-10 h-10 flex-shrink-0 bg-[#e8f5e9] text-[#1b6d24] rounded-2xl flex items-center justify-center text-2xl">🔒</div>
+                    <div>
+                        <h3 class="title-md mb-2">Privacy & Digital Rights</h3>
+                        <p class="body-md text-[#424752]">We believe everyone deserves control over their digital life. We advocate for strong encryption, data minimization, and resistance to surveillance.</p>
+                    </div>
+                </div>
+                <div class="flex gap-6">
+                    <div class="w-10 h-10 flex-shrink-0 bg-[#e3f2fd] text-[#003f87] rounded-2xl flex items-center justify-center text-2xl">🌐</div>
+                    <div>
+                        <h3 class="title-md mb-2">Open Source & Open Tech</h3>
+                        <p class="body-md text-[#424752]">We support and build free and open source software. Knowledge should be shared, not locked behind paywalls.</p>
+                    </div>
+                </div>
+                <div class="flex gap-6">
+                    <div class="w-10 h-10 flex-shrink-0 bg-[#f0f9ff] text-[#334155] rounded-2xl flex items-center justify-center text-2xl">👥</div>
+                    <div>
+                        <h3 class="title-md mb-2">Community & Local Action</h3>
+                        <p class="body-md text-[#424752]">Houston needs its own voice in the fight for digital freedom. We meet regularly to learn, build, and organize.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Short history -->
+    <section class="py-20 bg-[#f8f9fa]">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="headline-lg text-center mb-12">The short history</h2>
+            <div class="prose text-[#424752] max-w-none">
+                <p class="body-lg">Libre HTX started in early 2025 when a small group of Houston developers got together to talk about the increasing threats to digital privacy and the importance of open technology.</p>
+                <p class="body-lg">Since then we've grown into a regular meetup with talks, workshops, and community projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="flex justify-between items-end mb-10">
+                <h2 class="headline-lg">Upcoming Events</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="card rounded-2xl overflow-hidden">
+                    <div class="h-52 bg-[#e5e8ee] flex items-center justify-center text-7xl">📍</div>
+                    <div class="p-8">
+                        <div class="label-md text-[#1b6d24] mb-2">JUNE 12 • 6:30PM</div>
+                        <h3 class="title-md mb-3">Privacy in the Age of AI</h3>
+                        <p class="text-[#424752]">How to protect your data as AI tools become ubiquitous.</p>
+                    </div>
+                </div>
+                <div class="card rounded-2xl overflow-hidden">
+                    <div class="h-52 bg-[#e5e8ee] flex items-center justify-center text-7xl">💻</div>
+                    <div class="p-8">
+                        <div class="label-md text-[#1b6d24] mb-2">JUNE 28 • 7:00PM</div>
+                        <h3 class="title-md mb-3">Self-Hosting Workshop</h3>
+                        <p class="text-[#424752]">Run your own email, calendar, and notes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="py-20 bg-[#f8f9fa]">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="headline-lg mb-6">Resources & Tools</h2>
+            <div class="flex flex-wrap gap-3 justify-center">
+                <div class="bg-white border border-[#dee2e6] px-6 py-3 rounded-2xl text-sm label-md">Signal</div>
+                <div class="bg-white border border-[#dee2e6] px-6 py-3 rounded-2xl text-sm label-md">ProtonMail</div>
+                <div class="bg-white border border-[#dee2e6] px-6 py-3 rounded-2xl text-sm label-md">Bitwarden</div>
+                <div class="bg-white border border-[#dee2e6] px-6 py-3 rounded-2xl text-sm label-md">GrapheneOS</div>
+                <div class="bg-white border border-[#dee2e6] px-6 py-3 rounded-2xl text-sm label-md">Mullvad</div>
+                <div class="bg-white border border-[#dee2e6] px-6 py-3 rounded-2xl text-sm label-md">EFF</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 bg-[#003f87] text-white text-center">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="headline-lg mb-6">Ready to join the movement?</h2>
+            <button onclick="toggleModal()" class="bg-white text-[#003f87] px-10 py-4 rounded-2xl text-lg font-semibold">Join Libre HTX</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#181c20] text-white/70 py-16">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <p class="text-sm">© 2026 Libre HTX • Houston Digital Rights Community</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="joinModal" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+        <div class="bg-white rounded-3xl max-w-md w-full mx-4">
+            <div class="p-10">
+                <h3 class="text-2xl font-semibold mb-2">Join Libre HTX</h3>
+                <p class="text-[#424752]">Stay updated with Houston privacy events and resources.</p>
+                <div class="mt-8 space-y-6">
+                    <input type="text" placeholder="Your name" class="w-full border border-[#dee2e6] rounded-2xl px-6 py-4">
+                    <input type="email" placeholder="your@email.com" class="w-full border border-[#dee2e6] rounded-2xl px-6 py-4">
+                </div>
+            </div>
+            <div class="border-t flex">
+                <button onclick="toggleModal()" class="flex-1 py-6 font-medium border-r">Cancel</button>
+                <button onclick="submitJoin()" class="flex-1 py-6 text-[#003f87] font-semibold">Join</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleModal() {
+            document.getElementById('joinModal').classList.toggle('hidden');
+        }
+        function submitJoin() {
+            alert("Thank you! You're now on the Libre HTX list.");
+            toggleModal();
+        }
+    </script>
+</body>
+</html>
